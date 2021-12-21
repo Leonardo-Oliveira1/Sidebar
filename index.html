@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sidebar - Leonardo Oliveira</title>
+        <link rel="stylesheet" href="CSS/reset.css">
+        <link rel="stylesheet" href="CSS/sidebar.css">
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        
+        
+    <div class="sidebar sidebarActive">
+        <div id="logo">
+            <a href="#home"><img src="CSS/IMG/logo.svg" alt=""></a>
+        </div>
+
+        <div class="menu" onclick="sidebar()">
+
+            <div class="hamburger1"></div>
+            <div class="hamburger2"></div>
+            <div class="hamburger3"></div>
+
+        </div>
+
+        <div class="options">
+
+            <div class="search" onclick="search()">
+                <input type="search" placeholder="Search">
+                <img src="CSS/IMG/search.svg" id="search-img" alt="">
+            </div>
+            
+            <div id="option1">
+                    <a href="#Dashboard"><img src="CSS/IMG/grid.svg" alt="">
+                    <p class="hide" id="option1text">Dashboard</a></p>
+            </div>
+
+            <div id="option2">
+                <a href="#Pets"><img src="CSS/IMG/pet.svg" alt="">
+                <p class="hide" id="option2text">Pets</a></p>
+            </div>
+
+            <div id="option3">
+                <a href="#Customers"><img src="CSS/IMG/user.svg" alt="">
+                <p class="hide" id="option3text">Customers</a></p>
+            </div>
+
+            <div id="option4">
+                <a href="#Vets"><img src="CSS/IMG/vet.svg" alt="">
+                <p class="hide" id="option4text">Vets</a></p>
+            </div>
+
+            <div id="option5">
+                <a href="#Settings"><img src="CSS/IMG/settings.svg" alt="">
+                <p class="hide" id="option5text">Settings</a></p>
+            </div>
+
+        </div>
+        
+        <div id="profile">
+            <img src="CSS/IMG/photo.jpg" class="hide" id="profile-picture" alt="">
+            
+            <div class="data">
+                <p class="hide" id="name" >Eleanor Pena</p>
+                <p class="hide" id="job">Vet</p>
+            </div>
+            
+            <a id="logout-a" href="#Logout"><img src="CSS/IMG/log-out.svg" id="log-out-icon" alt=""></a>
+        </div>
+        
+    </div>
+
+    <div class="container">
+        <div class="content">
+        </div>
+    </div>
+
+
+    <script src="JS/sidebar.js"></script>
+</body>
+</html>
