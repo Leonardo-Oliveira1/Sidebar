@@ -1,0 +1,24 @@
+div.sidebar.sidebarActive{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    width: 250px;
+    height: 100%;
+    min-height: 525px;
+    
+    background-color: #18c29c;
+    transition-duration: .5s;
+
+    .menu{
+        margin-left: 210px;
+        transition-duration: .5s;
+    
+        min-width: 100px;
+    }
+
+    #logo {
+        visibility: visible;
+        transition-duration: $default-delay-transition;
+    }
+}

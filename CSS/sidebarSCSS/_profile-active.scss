@@ -1,0 +1,16 @@
+div.sidebar.sidebarActive{
+    #job, #name, #profile-picture{
+        @include showElementsAndDelay();
+    }
+
+    #log-out-icon{
+        margin-left: 47px;
+        transition-duration: $default-delay-transition;
+    }
+
+    #logout-a{
+        width: 27px;
+        margin-left: 100px;
+        transition: $default-delay-transition;
+    }
+}

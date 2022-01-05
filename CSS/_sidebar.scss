@@ -1,0 +1,17 @@
+$secondary-color: #93D8C7;
+$default-delay-transition: .4s;
+
+@mixin showElementsAndDelay() {
+    visibility: visible;
+    transition-duration: $default-delay-transition;
+}
+
+@import 'sidebarSCSS/sidebar-container';
+@import 'sidebarSCSS/hamburguer-menu';
+@import 'sidebarSCSS/search';
+@import 'sidebarSCSS/options';
+@import 'sidebarSCSS/profile';
+
+@import 'sidebarSCSS/sidebar-container-active';
+@import 'sidebarSCSS/search-active';
+@import 'sidebarSCSS/profile-active';

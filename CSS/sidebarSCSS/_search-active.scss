@@ -1,0 +1,18 @@
+div.sidebar.sidebarActive{
+    .search{
+        width: 220px;
+        height: 50px;
+        
+        margin-left: 170px;
+        transition-duration: $default-delay-transition;
+    }
+
+    #search-img{
+        visibility: hidden;
+    }
+
+    ::-webkit-input-placeholder  {
+        color: #084236; 
+        visibility: visible;
+    }
+}

@@ -1,0 +1,48 @@
+@import 'sidebar';
+
+$text-color: white;
+
+*{
+    margin: 0;
+}
+
+html{
+    color: #084236;
+    background-color: #dce4e3;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    
+    width: 100vw;
+    height: 100vh;
+
+    -webkit-tap-highlight-color: transparent;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    max-width: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 1;
+    
+    height: 90vh;
+    
+}
+
+.content{
+    margin: 30px;
+}
